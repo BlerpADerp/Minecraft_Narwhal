@@ -261,3 +261,20 @@ public class ModEntityTypes {
         BiomeLoadingEvent.getGeneration().addStructureStart(narwhalSpawn); // Adds to icy biomes
     }
 }
+{
+  "format_version": 2,
+  "header": {
+    "name": "Narwhal Pack",
+    "description": "A pack full of exciting narwhal-themed features and enhancements!",
+    "uuid": "30c9c643-58c6-49ad-b746-bf3382305077", // Unique pack ID
+    "version": [1, 0, 0], // Pack version
+    "min_engine_version": [1, 20, 0] // Minimum version of the game required
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "1a4b7705-5ac7-4771-8418-d219023d3745", // Unique module ID
+      "version": [1, 0, 0]
+    }
+  ]
+}
